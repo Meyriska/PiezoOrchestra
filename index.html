@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=1200"> -->
+    <title>nanocat</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+
+    
+    <div class="container">
+        <div class="left-text">
+            <label for="theme-select">Theme:</label>
+            <select id="theme-select" class="clck">
+                <option value="purple" class="clck">Purple</option>
+                <option value="dark" class="clck">Dark</option>
+                <option value="sunset" class="clck">Sunset</option>
+            </select>
+        </div>
+
+        <div class="right-text">
+            <label>username:</label>
+            <input id="text_input">
+            <button id="submit" class="clck">принять</button>
+            <p id="p2"></p>
+        </div>
+    </div><br><br><br><br>
+
+    <div class="title-container">
+        <img src="gif_files\stitch_with_toy.gif" alt="Ститч" width="100">
+        <img src="gif_files\stitch_and_toy.gif" alt="Ститч" width="100">
+        <h1 id="H2">Вечер в хату</h1>
+        <img src="gif_files\stitch_and_toy.gif" alt="Ститч" width="100">
+        <img src="gif_files\stitch_with_toy.gif" alt="Ститч" width="100">
+    </div><br>
+
+    <div class="title-container">
+        <img src="gif_files\catti.gif" alt="Технические шоколадки" width="100">
+        <img src="gif_files\girl.gif" alt="Технические шоколадки" width="100">
+        <img src="gif_files\catti.gif" alt="Технические шоколадки" width="100">
+        <img src="gif_files\girl.gif" alt="Технические шоколадки" width="100">
+        <img src="gif_files\catti.gif" alt="Технические шоколадки" width="100">
+        <img src="gif_files\girl.gif" alt="Технические шоколадки" width="100">
+    </div><br>
+
+<!-- проекты -->
+
+
+    <div class="card">
+            <center>
+                <br><h2>Калькулятор</h2>
+                <h3>Расчёт NC555</h3><br><br>
+            </center>
+        <select id="calc-select" class="clck">
+                <option value="frequency" class="clck">Частота</option>
+                <option value="resistors" class="clck">Резисторы</option>
+                <option value="dutyCycle" class="clck">Коэффициент заполнения импульсов</option>
+        </select>
+
+        <div id="calc-block-frequency">
+            <center>
+                <h3>Калькулятор 1</h3>
+            </center>
+            <div><br>
+                <label class = "text" id="dop_2_1_label">R<sub>a</sub>:</label>
+                <input class = "number" type="number" style="margin-left:10px" id="dop_2_1">
+                <select id="unit-select-ra" class="clck">
+                    <option value="Ом" class="clck">Ом</option>
+                    <option value="кОм" class="clck">кОм</option>
+                    <option value="МОм" class="clck">МОм</option>
+                </select>
+                <br><br>
+                <label class = "text" id="dop_2_2_label">R<sub>b</sub>:</label>
+                <input class = "number" type="number" style="margin-left:10px" id="dop_2_2">
+                <select id="unit-select-rb" class="clck">
+                    <option value="Ом" class="clck">Ом</option>
+                    <option value="кОм" class="clck">кОм</option>
+                    <option value="МОм" class="clck">МОм</option>
+                </select>
+                <br><br>
+                <label class = "text" id="dop_2_3_label">C:</label>
+                <input class = "number" type="number" style="margin-left:25px" id="dop_2_3">
+                <select id="unit-select-c" class="clck">
+                    <option value="нФ" class="clck">нФ</option>
+                    <option value="пФ" class="clck">пФ</option>
+                    </select>
+                <br><br>
+                <button onclick="calc()" id="btn_dop_2" class="bt">Рассчитать</button><br>
+                <div class="expression">
+                    <label class = "text" id="dop_2_label"></label><br>
+                </div>
+            </div>
+        </div>
+       <div id="calc-block-resistors">
+            <center>
+                <h3>Калькулятор 2</h3>
+            </center>
+            <div><br>
+                <label class = "text">f:</label>
+                <input class = "number" type="number" style="margin-left:20px" id="dop_2-2-1">
+                <select id="unit-select_2_-f" class="clck">
+                    <option value="Гц" class="clck">Гц</option>
+                    <option value="кГц" class="clck">кГц</option>
+                    <option value="МГц" class="clck">МГц</option>
+                </select>
+                <br><br>
+                <label class = "text">D:</label>
+                <input class = "number" type="number" style="margin-left:10px" id="dop_2-2-2">
+                <br><br>
+                <label class = "text">C:</label>
+                <input class = "number" type="number" style="margin-left:10px" id="dop_2-2-3">
+                <select id="unit-select_2_-c" class="clck">
+                    <option value="нФ" class="clck">нФ</option>
+                    <option value="пФ" class="clck">пФ</option>
+                </select>
+                <br><br>
+                <button onclick="calc2()" id="btn_dop_2-2" class="bt">Рассчитать</button><br>
+                <div class="expression">
+                    <label class = "text" id="dop_2_label-2"></label><br>
+                </div>
+                <div class="expression">
+                    <label class = "text" id="dop_2_label-2_2"></label><br>
+                </div>
+            </div>
+        </div>
+        <div id="calc-block-dutyCycle">
+            <center>
+                <h3>Калькулятор 3</h3>
+            </center>
+            <div><br>
+                <label class = "text">R<sub>1</sub>:</label>
+                <input class = "number" type="number" style="margin-left:10px" id="dop_2-3-1">
+                <select id="unit-select_2_-r1" class="clck">
+                    <option value="Ом" class="clck">Ом</option>
+                    <option value="кОм" class="clck">кОм</option>
+                    <option value="МОм" class="clck">МОм</option>
+                </select>
+                <br><br>
+                <label class = "text">R<sub>2</sub>:</label>
+                <input class = "number" type="number" style="margin-left:10px" id="dop_2-3-2">
+                <select id="unit-select_2_-r2" class="clck">
+                    <option value="Ом" class="clck">Ом</option>
+                    <option value="кОм" class="clck">кОм</option>
+                    <option value="МОм" class="clck">МОм</option>
+                </select>
+                <br><br>
+                <button onclick="calc3()" id="btn_dop_2-3" class="bt">Рассчитать</button><br>
+                <div class="expression">
+                    <label class = "text" id="dop_2_label-3"></label><br>
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+
+    
+    
+    
+    <script src="index.js">   
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+/* body{
+    font-family: cursive;
+    font-size: 1em;
+    flex-direction: column;
+    background: linear-gradient(135deg, #f5f7fa 0%, #8215bc 100%);
+} */
+
+.title-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    gap: 10px; 
+}
+
+.container{
+    box-sizing: border-box;
+    padding: 5px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+    background-color: rgba(23, 0, 29, 0.2);
+}
+
+body {
+  --body-bg: linear-gradient(90deg, #b7d4ff 0%, #8215bc 100%);
+  --text-color: #1e293b;
+  --card-bg: rgb(171, 100, 199, 0.5);
+  --bt-bg: rgba(121, 0, 151, 0.5);
+  --bt-bg-hv: #5900c0;
+  
+  background: var(--body-bg);
+  color: var(--text-color);
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+  transition: all 0.3s ease; 
+}
+
+body[data-theme="dark"] {
+  --body-bg: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+  --text-color: #f8fafc;
+  --card-bg: rgb(30, 41, 59, 0.5);
+  --bt-bg: rgba(0, 58, 151, 0.5);
+  --bt-bg-hv: #1000c0;
+}
+
+body[data-theme="sunset"] {
+  --body-bg: linear-gradient(135deg, #1e1b4b 0%, #eba36c 100%);
+  --text-color: #f8fafc;
+  --card-bg: rgb(48, 10, 5, 0.5);
+  --bt-bg: rgba(0, 28, 95, 0.5);
+  --bt-bg-hv: #ffb67ed2;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 12px;
+    border-color: #f5f7fa;
+    margin-top: 15px;
+    background-color: var(--card-bg);
+    backdrop-filter: blur(10px);              
+    border: 3px outset rgba(255, 255, 255);
+}
+
+.clck{
+    padding: 4px 10px;
+    font-size: 1em;
+    font-family: cursive;
+    color: white;
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.clck:hover{
+    background-color: var(--bt-bg-hv);
+}
+
+.bt{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-family: cursive;
+    color: white;
+    background-color: var(--bt-bg);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.bt:hover{
+    background-color: var(--bt-bg-hv);
+}
+
+.expression {
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    border-color: #f5f7fa;
+    margin-top: 15px;
+    background-color: var(--card-bg);
+    backdrop-filter: blur(10px);              
+    border: 3px outset rgba(255, 255, 255);
+}
+
+/* начало проектов */
+
+.text{
+    font-size: 2em;
+    font-family: fantasy;
+}
+
+
+.number{
+    padding: 10px 5px;
+    font-size: 1em;
+    font-family: fantasy;
+}
+
