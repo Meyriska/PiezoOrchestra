@@ -1,7 +1,7 @@
 Всем кискам "Пис!" - я из НИТУ МИСИС
 
 <p align="center">
-<img src="media/image1.gif" width="100"><img src="media/image2.gif" width="100"><img src="media/image1.gif" width="100"><img src="media/image2.gif" width="100"><img src="media/image1.gif" width="100">
+<img src="media/stitch_and_toy.gif" width="100"><img src="media/stitch_with_toy.gif" width="100"><img src="media/stitch_and_toy.gif" width="100"><img src="media/stitch_with_toy.gif" width="100"><img src="media/stitch_and_toy.gif" width="100">
 </p>
 
 # PiezoOrchestra
