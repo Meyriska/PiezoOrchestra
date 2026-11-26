@@ -50,15 +50,10 @@
 [![Схема на Breadboard](https://private-user-images.githubusercontent.com/85460283/674877718-c4ce57d9-cbb6-4c49-b03b-4397089cb5b9.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTU3MjkwODEsIm5iZiI6MTc5NTcyODc4MSwicGF0aCI6Ii84NTQ2MDI4My82NzQ4Nzc3MTgtYzRjZTU3ZDktY2JiNi00YzQ5LWIwM2ItNDM5NzA4OWNiNWI5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTI2VDIxMzMwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRkYjA2OTYyNzc3M2M0YjFlYWM1NmUwODMyMThlYWExNTE4ZTQ3ZGE0ZjBmYWE4YWEzYjYwMjhhYjBlZTg5ZWYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.CB06cYbP-072-hNfkk2FK5p9BSO1pD0b5cYRGBTVA4Q)](https://github.com/m112521/555-synth)
 
 
-
-<mark>ВИДЕО???</mark>
-
-<p align="center">
-<img src="media/1.1.jpg" width="300"><video src="1.2.mp4" controls width="300"></video>
 https://github.com/user-attachments/assets/e7753eda-e220-4741-98c7-0249963bd43f
-</p>
+
 <p align="center">
-<img src="media/1.3.jpg" width="300"><img src="media/1.4.jpg" width="300">
+<img src="media/1.3.jpg" width="350"><img src="media/1.4.jpg" width="350">
 </p>
 
 **Принцип работы и настройка:**
@@ -247,9 +242,10 @@ function draw() {
 <img src="media/6.3.jpg" width="800">
 </p>
 
-<mark>ВИДЕО</mark>
-https://github.com/m112521/notsoserous-science/assets/85460283/56accc54-1f78-4390-a13b-5404003ea0d3
-https://github.com/user-attachments/assets/e7753eda-e220-4741-98c7-0249963bd43f
+https://github.com/user-attachments/assets/f43c3c23-33ad-455c-b821-dd59fee725a9
+
+[![Микро-концерт](https://private-user-images.githubusercontent.com/85460283/674876527-18c083f9-0778-4a43-9457-c86d1c47bad6.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTU3Mjg0NTQsIm5iZiI6MTc5NTcyODE1NCwicGF0aCI6Ii84NTQ2MDI4My82NzQ4NzY1MjctMThjMDgzZjktMDc3OC00YTQzLTk0NTctYzg2ZDFjNDdiYWQ2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTI2VDIxMjIzNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMwZTFmOTY2Mjg5ZjkwNjEzYWRjN2NmMmI3YTRhYjQxYjZmZmM4ZDU1YmVmMDBjZTM0YjY1MzU4ZWY0N2RiODMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.FRZedW871DcMMfvCyhwYSrbg1svFwNfXxq2032dObCk)]
+
 
 <p align="center">
 <img src="media/6.1.mp4" width="300"><img src="media/6.2.mp4" width="300">
