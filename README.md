@@ -1,21 +1,19 @@
-# PiezoOrchestra
-
-https://meyriska.github.io/PiezoOrchestra/
+Всем кискам "Пис!" - я из НИТУ МИСИС
 
 <p align="center">
-<img src="media/image1.gif" width="100"><img src="media/image2.gif" width="100"><img src="media/image1.gif" width="100"><img src="media/image2.gif" width="100"><img src="media/image1.gif" width="100">
+<img src="media/stitch_and_toy.gif" width="100"><img src="media/stitch_with_toy.gif" width="100"><img src="media/stitch_and_toy.gif" width="100"><img src="media/stitch_with_toy.gif" width="100"><img src="media/stitch_and_toy.gif" width="100">
 </p>
 
-Всем кискам "Пис!" - я из НИТУ МИСИС
+# PiezoOrchestra
+
+<p align="center">
+<img src="media/6.5.jpg" width="500">
+</p>
 
 ## Содержание
 
 <p align="center">
-<table border="0">
-  <tr>
-    <td valign="top" width="50%">
-
-
+   
 * [PiezoOrchestra](#piezoorchestra)
     * [1. Электроника и расчеты](#1-электроника-и-расчеты)
     * [2. Веб-инструменты и визуализация ШИМ](#2-веб-инструменты-и-визуализация-шим)
@@ -24,12 +22,6 @@ https://meyriska.github.io/PiezoOrchestra/
     * [5. Подбор мелодии и тестирование](#5-подбор-мелодии-и-тестирование)
     * [6. Итог](#6-итог)
 
-    </td>
-    <td valign="middle" align="center" width="50%">
-      <img src="media/image0.gif" width="300">
-    </td>
-  </tr>
-</table>
 </p>
 
 
@@ -38,30 +30,41 @@ https://meyriska.github.io/PiezoOrchestra/
 ## `1. Электроника и расчеты`
 
 <details>
-  <summary><b>Нажмите, чтобы развернуть текст`</b></summary><br>
+  <summary><b>Нажмите, чтобы развернуть текст</b></summary><br>
 
 **Необходимые электронные компоненты (на один модуль):**
-* Таймер NE555 (генератор импульсов);
-* Пьезоэлектрический излучатель (пассивный пьезо-баззер);
-* Постоянные резисторы ($R_a$, $R_b$) и конденсаторы ($C$) для задания базовой частоты;
-* Потенциометр для точной подстройки (калибровки) тона и диапазона частот;
-* Тактовая кнопка с колпачком для подачи сигнала;
-* Литий-ионный аккумулятор 18650 (3.7 В) и батарейный отсек;
-* Соединительные провода.
+- [ ] Таймер NE555 (генератор импульсов);
+- [ ] Пьезоэлектрический излучатель (пассивный пьезо-баззер);
+- [ ] Постоянные резисторы ($R_a$, $R_b$) и конденсаторы ($C$) для задания базовой частоты: $R_1 = 1$ kOhm, $R_2 = 10$ kOhm, $R_3 = 50$ Ohm, $C_1 = 10$ nF, 2 x $C_2 = 100$ nF;
+- [ ] Потенциометр для точной подстройки (калибровки) тона и диапазона частот на 10 kOhm;
+- [ ] Slide Switch;
+- [ ] Push Button;
+- [ ] LED;
+- [ ] Литий-ионный аккумулятор 18650 (3.7 - 4.2 V) и батарейный отсек;
+- [ ] Соединительные провода.
 
-Электрическая схема:
+Электрическая схема от [m112521](https://github.com/m112521):
+
+[![Электрическая схема](https://private-user-images.githubusercontent.com/85460283/674876527-18c083f9-0778-4a43-9457-c86d1c47bad6.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTU3Mjg0NTQsIm5iZiI6MTc5NTcyODE1NCwicGF0aCI6Ii84NTQ2MDI4My82NzQ4NzY1MjctMThjMDgzZjktMDc3OC00YTQzLTk0NTctYzg2ZDFjNDdiYWQ2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTI2VDIxMjIzNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMwZTFmOTY2Mjg5ZjkwNjEzYWRjN2NmMmI3YTRhYjQxYjZmZmM4ZDU1YmVmMDBjZTM0YjY1MzU4ZWY0N2RiODMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.FRZedW871DcMMfvCyhwYSrbg1svFwNfXxq2032dObCk)](https://github.com/m112521/555-synth)
+
+[![Схема на Breadboard](https://private-user-images.githubusercontent.com/85460283/674877718-c4ce57d9-cbb6-4c49-b03b-4397089cb5b9.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTU3MjkwODEsIm5iZiI6MTc5NTcyODc4MSwicGF0aCI6Ii84NTQ2MDI4My82NzQ4Nzc3MTgtYzRjZTU3ZDktY2JiNi00YzQ5LWIwM2ItNDM5NzA4OWNiNWI5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTI2VDIxMzMwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRkYjA2OTYyNzc3M2M0YjFlYWM1NmUwODMyMThlYWExNTE4ZTQ3ZGE0ZjBmYWE4YWEzYjYwMjhhYjBlZTg5ZWYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.CB06cYbP-072-hNfkk2FK5p9BSO1pD0b5cYRGBTVA4Q)](https://github.com/m112521/555-synth)
+
+
+
+<mark>ВИДЕО???</mark>
 
 <p align="center">
-<img src="media/image3.png" width="300"><img src="media/image4.gif" width="300">
+<img src="media/1.1.jpg" width="300"><video src="1.2.mp4" controls width="300"></video>
+https://github.com/user-attachments/assets/e7753eda-e220-4741-98c7-0249963bd43f
 </p>
 <p align="center">
-<img src="media/image5.png" width="300"><img src="media/image6.gif" width="300">
+<img src="media/1.3.jpg" width="300"><img src="media/1.4.jpg" width="300">
 </p>
 
 **Принцип работы и настройка:**
 Схема построена на базе генератора прямоугольных импульсов (ШИМ). Частота звука зависит от номиналов резисторов и емкости конденсатора в RC-цепи. 
 
-Чтобы каждый модуль звучал чисто и попадал в свою ноту, мы заранее рассчитали необходимые номиналы компонентов под целевой диапазон частот (от 500 до 700 Гц ???). После расчетов схема была собрана навесным монтажом и проверена на осциллографе для подтверждения точности выходной частоты и скважности сигнала.
+Чтобы каждый модуль звучал чисто и попадал в свою ноту, мы заранее рассчитали необходимые номиналы компонентов под целевой диапазон частот (от 500 до 700 Гц). После расчетов схема была собрана навесным монтажом и проверена на осциллографе для подтверждения точности выходной частоты и скважности сигнала.
 
 </details>
 
@@ -70,18 +73,15 @@ https://meyriska.github.io/PiezoOrchestra/
 <details>
   <summary><b>Нажмите, чтобы развернуть текст</b></summary><br>
    
-Чтобы автоматизировать подбор резисторов и конденсаторов для всей группы, мы разработали собственный веб-калькулятор и развернули его на **GitHub Pages**.
+Чтобы автоматизировать подбор резисторов и конденсаторов, был разработан веб-калькулятор и развернут на **GitHub Pages**.
 
 **Функционал калькулятора:**
 1. Расчет выходной частоты ($f$) по заданным номиналам $R_a$, $R_b$ и $C$.
 2. Обратный расчет номиналов резисторов под нужную частоту ноты и коэффициент заполнения ($D$).
 3. Расчет коэффициента заполнения импульсов.
 
-https://meyriska.github.io/PiezoOrchestra/
+[**Калькулятор**](https://meyriska.github.io/PiezoOrchestra/ "Тык")
 
-<p align="center">
-<img src="media/image7.png" width="200"><img src="media/image8.png" width="200"><img src="media/image9.png" width="200">
-</p>
 
 Дополнительно на библиотеке `p5.js` была написана интерактивная визуализация широтно-импульсной модуляции (ШИМ). С помощью ползунка можно менять коэффициент заполнения (Duty Cycle) и в реальном времени наблюдать, как меняется форма прямоугольного сигнала и яркость виртуального светодиода.
 
@@ -168,7 +168,7 @@ function draw() {
 ```
 </details>
 
-что-то.
+<mark>ССЫЛКА НА ОБЛАЧНОЙ СРЕДЕ РЕДАКТИРОВАНИЯ И ЗАПУСКА p5.js ИЛИ АНИМАЦИЯ СЮДА.</mark>
 
 </details>
 
@@ -186,10 +186,8 @@ function draw() {
 
 После травления и сверления отверстий плата была покрыта защитным слоем краски, а все радиодетали аккуратно перенесены и запаяны на свои места.
 
-*(Фото 6 и Фото 8 — процесс травления и покрашенная плата)*
-
 <p align="center">
-<img src="media/image21.png" width="400"><img src="media/image22.png" width="400">
+<img src="media/3.1.jpg" width="400"><img src="media/3.2.jpg" width="400">
 </p>
 
 </details>
@@ -199,15 +197,11 @@ function draw() {
 <details>
   <summary><b>Нажмите, чтобы развернуть текст</b></summary><br>
    
-Для защиты электроники и удобства использования во время игры на 3D-принтере были напечатаны корпуса. Внутри разместились плата с генератором и аккумуляторный отсек, а на верхнюю панель были выведены кнопка активации звука и ручка потенциометра для подстройки тона.
-
-*(Фото — корпус)*
+Для защиты электроники и удобства использования во время игры на 3D-принтере были напечатаны корпуса. Внутри разместились плата с генератором и аккумуляторный отсек, а на верхнюю панель были выведены кнопка без фиксации для активации звука и ручка потенциометра для подстройки тона.
 
 <p align="center">
-<img src="media/image20.gif" width="400">
+<<img src="media/4.2.png" width="400">
 </p>
-
-что-то
 
 </details>
 
@@ -221,16 +215,25 @@ function draw() {
 2. Распределили ноты между участниками команды.
 3. С помощью потенциометров точно подстроили частоту каждого модуля под выбранную ноту.
 
-*(Фото — нотный лист)*
-
 <p align="center">
-<img src="media/image20.gif" width="400">
+<img src="media/5.1.jpg" width="400">
 </p>
 
-что-то
+```text
+До# 524
+Ре 587
+Ми 660
+Фа 698
+Соль 784
 
-Примечания для оптимизации робота:
-Необходимо увеличить трение между ножками и поверхностью.
+Ре фа ми ре до# ре ми ре ми ре ми фа фа фа
+Ми ре до# си(бекар) до ре ре фа ми ре
+До# ре ми ре соль фа ми ре
+```
+
+<p align="center">
+<img src="media/5.2.jpg" width="400">
+</p>
 
 </details>
 
@@ -238,12 +241,24 @@ function draw() {
 
 Мы создали автономный модульный синтезатор и провели совместное выступление, исполнив мелодию в формате живого электронного ансамбля. Каждый участник отвечал за свою ноту и вовремя активировал свой модуль, превратив группу людей в единый музыкальный инструмент.
 
-*(Фото — фото с нашего выступления/репетиции)*
-   
+Наша команда отвечала за ноту Соль второй октавы (G5) - 784 Гц.
+
 <p align="center">
-<img src="media/image31.gif" width="300"><img src="media/image32.gif" width="300">
+<img src="media/6.3.jpg" width="800">
 </p>
 
+<mark>ВИДЕО</mark>
+https://github.com/m112521/notsoserous-science/assets/85460283/56accc54-1f78-4390-a13b-5404003ea0d3
+https://github.com/user-attachments/assets/e7753eda-e220-4741-98c7-0249963bd43f
+
+<p align="center">
+<img src="media/6.1.mp4" width="300"><img src="media/6.2.mp4" width="300">
+</p>
+
+
+<p align="center">
+<img src="media/6.6.jpg" width="300"><img src="media/6.7.jpg" width="300">
+</p>
 
 
 -------------
