@@ -78,7 +78,7 @@ https://github.com/user-attachments/assets/e7753eda-e220-4741-98c7-0249963bd43f
 [**Калькулятор**](https://meyriska.github.io/PiezoOrchestra/ "Тык")
 
 <p align="center">
-<img src="media/2.1.jpg" width="300">
+<img src="media/2.1.gif" width="300">
 </p>
 
 
