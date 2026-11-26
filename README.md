@@ -1,12 +1,14 @@
 # PiezoOrchestra
 
-https://meyriska.github.io/PiezoOrchestra/
-
 <p align="center">
 <img src="media/image1.gif" width="100"><img src="media/image2.gif" width="100"><img src="media/image1.gif" width="100"><img src="media/image2.gif" width="100"><img src="media/image1.gif" width="100">
 </p>
 
 Всем кискам "Пис!" - я из НИТУ МИСИС
+
+<p align="center">
+<img src="media/6.5.jpg" width="500">
+</p>
 
 ## Содержание
 
@@ -247,14 +249,11 @@ function draw() {
 <p align="center">
 <img src="media/6.3.jpg" width="800">
 </p>
-
+<mark>ВИДЕО</mark>
 <p align="center">
 <img src="media/6.1.mp4" width="300"><img src="media/6.2.mp4" width="300">
 </p>
 
-<p align="center">
-<img src="media/6.5.jpg" width="500">
-</p>
 
 <p align="center">
 <img src="media/6.6.jpg" width="300"><img src="media/6.7.jpg" width="300">
