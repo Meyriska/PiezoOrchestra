@@ -187,7 +187,7 @@ function draw() {
 После травления и сверления отверстий плата была покрыта защитным слоем краски, а все радиодетали аккуратно перенесены и запаяны на свои места.
 
 <p align="center">
-<img src="media/3.1.jpg" width="400"><img src="media/3.2.jpg" width="400">
+<img src="media/3.1.jpg" width="300"><img src="media/3.2.jpg" width="300">
 </p>
 
 </details>
