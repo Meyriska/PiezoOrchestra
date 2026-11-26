@@ -52,10 +52,10 @@ https://meyriska.github.io/PiezoOrchestra/
 Электрическая схема:
 
 <p align="center">
-<img src="media/image3.png" width="300"><img src="media/image4.gif" width="300">
+<img src="media/1.1.jpg" width="300"><video src="media/1.2.mp4" controls width="300"></video>
 </p>
 <p align="center">
-<img src="media/image5.png" width="300"><img src="media/image6.gif" width="300">
+<img src="media/1.3.jpg" width="300"><img src="media/1.4.jpg" width="300">
 </p>
 
 **Принцип работы и настройка:**
