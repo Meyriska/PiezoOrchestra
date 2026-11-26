@@ -301,13 +301,13 @@ function draw() {
   // Текст и индикатор яркости (увеличены в 2 раза)
   noStroke();
   fill(255);
-  textSize(32); // было 18
+  textSize(32);
   textAlign(CENTER);
   text("Duty Cycle: " + nf(dutyCycle * 100, 0, 1) + "%", width / 2, height - 85);
 
   fill(255, 0, 255, dutyCycle * 255);
   stroke(138, 43, 226);
   strokeWeight(3);
-  ellipse(width / 2, height - 35, 50); // было 28
+  ellipse(width / 2, height - 35, 50); 
 }
 
