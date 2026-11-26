@@ -53,7 +53,7 @@
 https://github.com/user-attachments/assets/e7753eda-e220-4741-98c7-0249963bd43f
 
 <p align="center">
-<img src="media/1.3.jpg" width="350"><img src="media/1.4.jpg" width="350">
+<img src="media/1.3.jpg" width="350"><img src="media/1.4.jpg" width="500">
 </p>
 
 **Принцип работы и настройка:**
