@@ -227,3 +227,87 @@ else {
     updateCalcVisibility(calcSelect.value);
 };
 });
+
+
+
+
+
+let n = 10;
+let amp = 80; // было 40 -> увеличили в 2 раза
+let dutyCycle = 0.5;
+let slider;
+
+function setup() {
+  // Увеличили размер холста в 2 раза (было 500, 260)
+  let canvas = createCanvas(1000, 520);
+  canvas.parent('pwm-canvas');
+  
+  strokeWeight(3);
+  slider = createSlider(0, 100, 50);
+  slider.parent('pwm-slider');
+  slider.style('width', '400px'); // ползунок тоже стал в 2 раза шире
+  slider.style('margin-bottom', '20px');
+}
+
+function draw() {
+  background(27, 27, 27); 
+  dutyCycle = slider.value() / 100;
+  
+  push(); 
+  let originX = 30; // отступ слева в 2 раза больше
+  let originY = height / 2 + amp;
+
+  // Сетка
+  stroke(255, 255, 255, 30);
+  strokeWeight(1);
+  for (let x = originX; x < width; x += (width - 60) / n) {
+    line(x, 0, x, height);
+  }
+  
+  // Оси и стрелки
+  stroke(0, 150, 255);
+  strokeWeight(4);
+  line(originX, originY, width - 30, originY);
+  triangle(width - 30, originY - 8, width - 30, originY + 8, width - 15, originY);
+  line(originX, originY, originX, 30);
+  triangle(originX - 8, 30, originX + 8, 30, originX, 15);
+  pop();
+
+  let period = (width - 60) / n;
+  let pulseWidth = period * dutyCycle;
+  
+  // График ШИМ
+  push();
+  translate(30, height / 2);
+  stroke(0, 255, 200);
+  strokeWeight(3);
+  noFill();
+  beginShape();
+  let x = 0;
+  for (let i = 0; i < n; i++) {
+    vertex(x, -amp);
+    x += pulseWidth;
+    vertex(x, -amp);
+    vertex(x, amp);
+    x += (period - pulseWidth);
+    vertex(x, amp);
+    if (i < n - 1) {
+      vertex(x, -amp);
+    }
+  }
+  endShape();
+  pop();
+  
+  // Текст и индикатор яркости (увеличены в 2 раза)
+  noStroke();
+  fill(255);
+  textSize(32); // было 18
+  textAlign(CENTER);
+  text("Duty Cycle: " + nf(dutyCycle * 100, 0, 1) + "%", width / 2, height - 85);
+
+  fill(255, 0, 255, dutyCycle * 255);
+  stroke(138, 43, 226);
+  strokeWeight(3);
+  ellipse(width / 2, height - 35, 50); // было 28
+}
+
