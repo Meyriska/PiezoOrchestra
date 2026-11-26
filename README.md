@@ -52,7 +52,8 @@ https://meyriska.github.io/PiezoOrchestra/
 Электрическая схема:
 
 <p align="center">
-<img src="media/1.1.jpg" width="300"><video src="media/1.2.mp4" controls width="300"></video>
+<img src="media/1.1.jpg" width="300"><video src="1.2.mp4" controls width="300"></video>
+https://github.com/user-attachments/assets/e7753eda-e220-4741-98c7-0249963bd43f
 </p>
 <p align="center">
 <img src="media/1.3.jpg" width="300"><img src="media/1.4.jpg" width="300">
