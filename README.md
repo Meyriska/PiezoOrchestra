@@ -241,7 +241,11 @@ function draw() {
 <p align="center">
 <img src="media/6.3.jpg" width="800">
 </p>
+
 <mark>ВИДЕО</mark>
+https://github.com/m112521/notsoserous-science/assets/85460283/56accc54-1f78-4390-a13b-5404003ea0d3
+https://github.com/user-attachments/assets/e7753eda-e220-4741-98c7-0249963bd43f
+
 <p align="center">
 <img src="media/6.1.mp4" width="300"><img src="media/6.2.mp4" width="300">
 </p>
