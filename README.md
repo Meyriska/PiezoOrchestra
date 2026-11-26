@@ -53,7 +53,7 @@
 https://github.com/user-attachments/assets/e7753eda-e220-4741-98c7-0249963bd43f
 
 <p align="center">
-<img src="media/1.3.jpg" width="350"><img src="media/1.4.jpg" width="500">
+<img src="media/1.3.jpg" width="350"><img src="media/1.4.jpg" width="350">
 </p>
 
 **Принцип работы и настройка:**
@@ -78,7 +78,7 @@ https://github.com/user-attachments/assets/e7753eda-e220-4741-98c7-0249963bd43f
 [**Калькулятор**](https://meyriska.github.io/PiezoOrchestra/ "Тык")
 
 <p align="center">
-<img src="media/2.1.gif" width="300">
+<img src="media/2.1.gif" width="500">
 </p>
 
 
