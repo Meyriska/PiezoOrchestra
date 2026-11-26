@@ -244,13 +244,7 @@ function draw() {
 
 https://github.com/user-attachments/assets/f43c3c23-33ad-455c-b821-dd59fee725a9
 
-[![Микро-концерт](https://github.com/Meyriska/PiezoOrchestra/blob/main/media/6.2.mp4)]
-
-
-<p align="center">
-<img src="media/6.1.mp4" width="300"><img src="media/6.2.mp4" width="300">
-</p>
-
+[![Микро-концерт](<img width="1761" height="778" alt="6 2 1" src="https://github.com/user-attachments/assets/1fa97953-7bb5-4054-be58-564749a469dc" />)](https://github.com/Meyriska/PiezoOrchestra/blob/main/media/6.2.mp4)
 
 <p align="center">
 <img src="media/6.6.jpg" width="300"><img src="media/6.7.jpg" width="300">
