@@ -51,8 +51,7 @@
 
 
 
-<mark>СХЕМА СЮДАА
-ВИДЕО???</mark>
+<mark>ВИДЕО???</mark>
 
 <p align="center">
 <img src="media/1.1.jpg" width="300"><video src="1.2.mp4" controls width="300"></video>
