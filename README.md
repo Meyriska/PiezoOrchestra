@@ -1,10 +1,9 @@
+Всем кискам "Пис!" - я из НИТУ МИСИС
 # PiezoOrchestra
 
 <p align="center">
 <img src="media/image1.gif" width="100"><img src="media/image2.gif" width="100"><img src="media/image1.gif" width="100"><img src="media/image2.gif" width="100"><img src="media/image1.gif" width="100">
 </p>
-
-Всем кискам "Пис!" - я из НИТУ МИСИС
 
 <p align="center">
 <img src="media/6.5.jpg" width="500">
