@@ -78,7 +78,7 @@ https://github.com/user-attachments/assets/e7753eda-e220-4741-98c7-0249963bd43f
 [**Калькулятор**](https://meyriska.github.io/PiezoOrchestra/ "Тык")
 
 <p align="center">
-<img src="media/2.1.jpg" width="300">
+<img src="media/2.1.gif" width="500">
 </p>
 
 
@@ -167,8 +167,6 @@ function draw() {
 ```
 </details>
 
-<mark>ССЫЛКА НА ОБЛАЧНОЙ СРЕДЕ РЕДАКТИРОВАНИЯ И ЗАПУСКА p5.js ИЛИ АНИМАЦИЯ СЮДА.</mark>
-
 </details>
 
 ## `3. Изготовление печатной платы`
@@ -248,7 +246,7 @@ function draw() {
 
 https://github.com/user-attachments/assets/f43c3c23-33ad-455c-b821-dd59fee725a9
 
-[![Микро-концерт](<img width="1761" height="759" alt="6 2 1" src="https://github.com/user-attachments/assets/f09a8d04-f9ca-436c-9fc0-6b43e81a52f3" />)](https://github.com/Meyriska/PiezoOrchestra/blob/main/media/6.2.mp4)
+[![Скачать микро-концерт](<img width="1761" height="759" alt="6 2 1" src="https://github.com/user-attachments/assets/f09a8d04-f9ca-436c-9fc0-6b43e81a52f3" />)](https://github.com/Meyriska/PiezoOrchestra/blob/main/media/6.2.mp4)
 
 <img width="1761" height="759" alt="6 2 1" src="https://github.com/user-attachments/assets/f09a8d04-f9ca-436c-9fc0-6b43e81a52f3" />
 
